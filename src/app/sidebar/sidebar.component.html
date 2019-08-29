@@ -1,0 +1,41 @@
+<div class="col-sm-3 col-md-2 sidebar">
+		<div class="top-navigation">
+				<div class="t-menu">MENU</div>
+				<div class="t-img" (click)="toggleNavSidebar()">
+					<img src="./assets/images/lines.png" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+		</div>
+		<div  [class.drop-navigation-toggle]="isOpen" class="drop-navigation">
+				  <ul class="nav nav-sidebar">
+
+					<li><a href="/" class="home-icon">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+
+					<li><a href="?cat=my" class="home-icon">
+							<span class="glyphicon glyphicon-film" aria-hidden="true"></span>My Videos</a></li>
+
+					<li><a href="?cat=anim" class="home-icon">
+								<span class="glyphicon glyphicon-film" aria-hidden="true"></span>Cartoons</a></li>
+
+					<li><a href="?cat=fun" class="home-icon">
+									<span class="glyphicon glyphicon-film" aria-hidden="true"></span>Fun</a></li>
+
+					<li><a href="?cat=music" class="song-icon">
+							<span class="glyphicon glyphicon-music" aria-hidden="true"></span>Songs</a></li>
+							
+				  </ul>
+		
+			<div class="side-bottom">
+					<div class="side-bottom-icons">
+							<ul class="nav2">
+								<li><a href="#" class="facebook"> </a></li>
+								<li><a href="#" class="facebook twitter"> </a></li>
+							</ul>
+					</div>
+					<div class="copyright">
+							<p>Copyright © 2019 vi-Host. All Rights Reserved</p>
+					</div>
+			</div>
+		</div>
+</div>

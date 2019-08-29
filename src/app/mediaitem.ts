@@ -1,0 +1,21 @@
+export class Mediaitem {
+    link:string;
+    title:string;
+    fullUrl:string;
+    size:number;
+    views:number;
+    likes:number;
+    dislikes:number;
+    width:number;
+    heigth:number;
+    duration:number;
+    preview:string;
+    created:number;
+    description:string;
+    codec:string;
+    format:string;
+    state:number;
+    user:string;
+    permit:number;
+    cat:string;
+}
